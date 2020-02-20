@@ -1,0 +1,193 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.full-height {
+  height: 100%;
+}
+
+
+
+
+.flag-icon-holder{
+  height: 25px;
+  width: 25px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+/* header */
+.h-left-col{
+  background: #284CEF;
+}
+.h-left-font{
+  font-size: 30px;
+}
+
+/* panelcontainer */
+.sidebar{
+  min-height: calc(100%-65px);
+  width: 270px;
+  padding: 0;
+  background: linear-gradient(to top, #5768f3, #1c45ef);
+}
+
+.nav-profile{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.nav-category{
+    color: rgba(255, 255, 255, 0.7);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.13);
+    margin: 10px 0px;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px 0px 15px 0px;
+}
+
+.aaa{
+    color:white;
+    margin: 10px 0px;
+    font-size: 15px;
+    font-weight: 500;    
+}
+
+.aaa:hover {
+  background: rgba(255,255,255, 0.15);
+  color: white;  
+}
+
+.header-color{
+  background: white;
+}
+
+.flag-select img {
+  width: 1.3em;
+  height: 1.3em;
+  position: relative;
+  top: 0.0em;
+}
+.nav-color{
+  color: white;
+}
+.container{
+  height: 100%;
+}
+.panelcontainer {
+  background-color: #284CEF;
+  padding-right: 0px; 
+  padding-left: 0px;
+}
+
+.navbar-wrapper{
+  height: 70px;
+}
+.nav > a:hover, .nav > a:focus {
+  background-color: #0F25D5;
+  text-decoration: none;
+  color: white;
+}
+
+.header {
+  background-color: #80fb61;
+}
+.menu {
+  /* background-color: #f8fb61; */
+  margin: 10px 10px 10px 10px;
+}
+.infoview {
+  /* background-color: #7d61fb; */
+  margin: 10px 10px 10px 10px;
+}
+.chartone{
+  margin: 10px 10px 10px 10px;
+} 
+.charttwo{
+  margin: 10px 10px 10px 10px;
+}
+.chatview {
+  background-color: #f661fb;
+}
+
+.a5-1 {
+  background-color: #6d830a;
+}
+.a5-2 {
+  background-color: #a461fb;
+}
+.a5-3 {
+  background-color: #fb6161;
+}
+.a5-4 {
+  background-color: #80fb61;
+}
+.a5-5 {
+  background-color: #0a1113;
+}
+.a5-6 {
+  background-color: #23055c;
+}
+.a5-7 {
+  background-color: #2b3d09;
+}
+.a5-8 {
+  background-color: #a3c91a;
+}
+.a5-9 {
+  background-color: #8a8b2c;
+}
+.a6-1 {
+  background-color: #5eaa08;
+}
+.a6-2 {
+  background-color: #98a143;
+}
+.a6-3 {
+  background-color: #a10500;
+}
+.a7 {
+  background-color: #55002f;
+}
